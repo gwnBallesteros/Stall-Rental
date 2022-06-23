@@ -46,7 +46,7 @@ Partial Class frmStallRental
         Me.Panel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(765, 65)
+        Me.Panel1.Size = New System.Drawing.Size(827, 65)
         Me.Panel1.TabIndex = 0
         '
         'lblHeading
@@ -55,7 +55,7 @@ Partial Class frmStallRental
         Me.lblHeading.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.lblHeading.Font = New System.Drawing.Font("Tahoma", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblHeading.ForeColor = System.Drawing.Color.DimGray
-        Me.lblHeading.Location = New System.Drawing.Point(265, 9)
+        Me.lblHeading.Location = New System.Drawing.Point(296, 9)
         Me.lblHeading.Name = "lblHeading"
         Me.lblHeading.Size = New System.Drawing.Size(234, 45)
         Me.lblHeading.TabIndex = 0
@@ -66,7 +66,7 @@ Partial Class frmStallRental
         Me.picStallRental.Image = Global.Stall_Rental.My.Resources.Resources.jeet_dhanoa_v2rAOFSvR9M_unsplash
         Me.picStallRental.Location = New System.Drawing.Point(0, 65)
         Me.picStallRental.Name = "picStallRental"
-        Me.picStallRental.Size = New System.Drawing.Size(345, 405)
+        Me.picStallRental.Size = New System.Drawing.Size(345, 323)
         Me.picStallRental.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picStallRental.TabIndex = 1
         Me.picStallRental.TabStop = False
@@ -75,7 +75,7 @@ Partial Class frmStallRental
         '
         Me.lblCostPerDay.AutoSize = True
         Me.lblCostPerDay.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblCostPerDay.Location = New System.Drawing.Point(504, 78)
+        Me.lblCostPerDay.Location = New System.Drawing.Point(512, 80)
         Me.lblCostPerDay.Name = "lblCostPerDay"
         Me.lblCostPerDay.Size = New System.Drawing.Size(157, 25)
         Me.lblCostPerDay.TabIndex = 2
@@ -94,7 +94,7 @@ Partial Class frmStallRental
         'txtNumberOfDays
         '
         Me.txtNumberOfDays.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtNumberOfDays.Location = New System.Drawing.Point(631, 135)
+        Me.txtNumberOfDays.Location = New System.Drawing.Point(657, 126)
         Me.txtNumberOfDays.Name = "txtNumberOfDays"
         Me.txtNumberOfDays.Size = New System.Drawing.Size(100, 32)
         Me.txtNumberOfDays.TabIndex = 4
@@ -113,7 +113,7 @@ Partial Class frmStallRental
         '
         Me.lblTotalCost.AutoSize = True
         Me.lblTotalCost.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTotalCost.Location = New System.Drawing.Point(627, 204)
+        Me.lblTotalCost.Location = New System.Drawing.Point(653, 204)
         Me.lblTotalCost.Name = "lblTotalCost"
         Me.lblTotalCost.Size = New System.Drawing.Size(81, 23)
         Me.lblTotalCost.TabIndex = 6
@@ -123,7 +123,7 @@ Partial Class frmStallRental
         '
         Me.btnCost.BackColor = System.Drawing.Color.Gold
         Me.btnCost.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCost.Location = New System.Drawing.Point(391, 286)
+        Me.btnCost.Location = New System.Drawing.Point(362, 300)
         Me.btnCost.Name = "btnCost"
         Me.btnCost.Size = New System.Drawing.Size(139, 61)
         Me.btnCost.TabIndex = 7
@@ -135,7 +135,7 @@ Partial Class frmStallRental
         Me.BtnClear.BackColor = System.Drawing.Color.Gold
         Me.BtnClear.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.BtnClear.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnClear.Location = New System.Drawing.Point(592, 286)
+        Me.BtnClear.Location = New System.Drawing.Point(518, 300)
         Me.BtnClear.Name = "BtnClear"
         Me.BtnClear.Size = New System.Drawing.Size(139, 61)
         Me.BtnClear.TabIndex = 8
@@ -146,7 +146,7 @@ Partial Class frmStallRental
         '
         Me.btnExit.BackColor = System.Drawing.Color.Gold
         Me.btnExit.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnExit.Location = New System.Drawing.Point(494, 366)
+        Me.btnExit.Location = New System.Drawing.Point(676, 300)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(139, 61)
         Me.btnExit.TabIndex = 9
@@ -160,7 +160,7 @@ Partial Class frmStallRental
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.CancelButton = Me.BtnClear
-        Me.ClientSize = New System.Drawing.Size(765, 468)
+        Me.ClientSize = New System.Drawing.Size(827, 387)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.BtnClear)
         Me.Controls.Add(Me.btnCost)
